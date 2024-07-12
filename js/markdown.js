@@ -21,7 +21,7 @@ async function displayMarkdown() {
         const text = await response.text();
         console.log('Markdown content fetched:', text);
 
-        const htmlContent = marked(text);
+        const htmlContent = marked.parse(text);
         console.log('HTML content:', htmlContent);
 
         document.getElementById('markdown-content').innerHTML = htmlContent;
