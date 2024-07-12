@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pathParts.forEach((part, index) => {
         if (part === 'collection' && index === 0) {
             // Handle the collection link
-            breadcrumbHTML += `<span><a href="${basePath}/guide.html">collection</a></span> / `;
+            breadcrumbHTML += `<span><a href="${basePath}/guide">collection</a></span> / `;
         } else {
             const displayName = decodeURIComponent(part.replace(/-/g, ' '));
             const link = basePath + '/' + pathParts.slice(1, index + 1).join('/');

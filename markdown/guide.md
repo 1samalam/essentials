@@ -2,9 +2,9 @@
 
 ---
 
-- ## 🔬 [Research Tools](/collection/research.html)
-- ## 🏫 [School Resources](/collection/school.html)
-- ## 🎬 [Editing Resources](/collection/editing.html)
-- ## 🤖 [Artificial Intelligence](/collection/ai.html)
-- ## 🍿 [Entertainment](/collection/entertainment.html)
-- ## 🍿 [Mental Health](/collection/mentalhealth.html)
+- ## 🔬 [Research Tools](/collection/research)
+- ## 🏫 [School Resources](/collection/school)
+- ## 🎬 [Editing Resources](/collection/editing)
+- ## 🤖 [Artificial Intelligence](/collection/ai)
+- ## 🍿 [Entertainment](/collection/entertainment)
+- ## 🍿 [Mental Health](/collection/mentalhealth)
