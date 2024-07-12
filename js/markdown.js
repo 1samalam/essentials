@@ -2,9 +2,9 @@ async function displayMarkdown() {
     try {
         // Get the current HTML file name
         const htmlFileName = window.location.pathname.split('/').pop();
-
+        // Construct the corresponding Markdown file name
         const markdownFileName = htmlFileName.replace('.html', '.md');
-        
+        // Construct the full path to the Markdown file
         const markdownFilePath = `/markdown/${markdownFileName}`;
 
         console.log(`Fetching ${markdownFilePath}`);
@@ -25,7 +25,9 @@ async function displayMarkdown() {
         console.log('Markdown content displayed successfully');
 
         // Parse the content with Twemoji
-        twemoji.parse(markdownContentElement);
+        twemoji.parse(markdownContentElement, {
+            className: 'emoji'
+        });
         console.log('Twemoji parsing applied successfully');
         
     } catch (error) {
